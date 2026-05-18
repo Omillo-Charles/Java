@@ -26,6 +26,14 @@ public class Variables{
         System.out.println(netWorth);
         System.out.println(valuation);
 
+        //Double point numbers are declared by double
+        double precision = 47636.89d;
+        double shotPower;
+        shotPower = 37834.47d;
+
+        System.out.println(precision);
+        System.out.println(shotPower);
+
         //The Booleans are declared by boolean
         boolean isStudent = true;
         System.out.print(isStudent);
