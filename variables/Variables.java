@@ -41,5 +41,9 @@ public class Variables{
         //The final keyWord -> The final keyword is used to declare variables whose value should not be changed or will not be changed
         final int MINUTES_PER_HOUR = 60;
         System.out.print(MINUTES_PER_HOUR);
+
+        //The var keyword -> The var keyword automatically detects the data type
+        var faculty = "Computing and Information Technology";
+        System.out.println(faculty);
     }
 }
