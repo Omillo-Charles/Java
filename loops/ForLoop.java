@@ -8,5 +8,10 @@ public class ForLoop {
         for (int i = 0; i < 3; i++) {
             System.out.println(universityNames[i]);
         }
+
+        // the for of loop
+        for (String uni : universityNames) {
+            System.out.println(uni);
+        }
     }
 }
