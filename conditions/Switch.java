@@ -7,6 +7,7 @@ public class Switch{
 
         //create an instance of the Scanner class
         Scanner input = new Scanner(System.in);
+        System.out.println("Choose a random number from 1 to 7: ");
         number = input.nextInt();
         input.nextLine();
 
